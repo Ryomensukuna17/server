@@ -1,5 +1,5 @@
 .hero{
-  padding-top: 196px;
+  padding-top: 84px;
 }
 
 .hero_text{
@@ -8,6 +8,7 @@ font-size: 16px;
 line-height: 209%;
 color: #848484;
 text-align: center;
+margin-bottom: 93px;
 }
 
 .span{
@@ -25,21 +26,13 @@ margin-bottom: 13px;
 }
 
 .hero_icons_text{
-  font-family: var(--second-family);
-font-weight: 400;
-font-size: 20px;
-line-height: 150%;
-color: #4f5665;
-width: 65px;
+  font-weight: 300;
+  font-size: 20px;
+  color: #333;
+  width: 325px;
 }
 
-.span2{
-  font-family: var(--second-family);
-font-weight: 700;
-font-size: 25px;
-line-height: 120%;
-color: #0b132a;
-}
+
 
 .hero_icons{
   display: flex;
@@ -48,9 +41,17 @@ color: #0b132a;
   width: 1440px;
   padding-top: 112px;
   padding-left: 170px;
+  gap: 300px;
 }
 
 .hero_icons_sections{
   display: flex;
   gap: 37px;
+}
+
+.hero_map{
+  margin-left: 270px;
+  padding-top: 93px;
+  margin-bottom: 63px;
+ 
 }
